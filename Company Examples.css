@@ -1,0 +1,26 @@
+/*company part*/
+#company {
+	background-color: #FE0F0F;
+	color: #fff;
+	padding: 50px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+
+/*about part*/
+
+#about {
+	padding: 50px;
+}
+
+div > h2 {
+	margin-bottom: 100px;
+}
+.glyphicon.glyphicon-signal {
+	font-size: 200px;
+	color: #FA1919;
+}
+
