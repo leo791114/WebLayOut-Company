@@ -1,3 +1,11 @@
+p.large {
+	line-height: 150%;
+}
+
+.top30 {
+	margin-top: 30px;
+}
+
 /*company part*/
 #company {
 	background-color: #FE0F0F;
@@ -23,4 +31,56 @@ div > h2 {
 	font-size: 200px;
 	color: #FA1919;
 }
+
+/*Our values part*/
+
+#our-value {
+	padding: 50px;
+	background-color:#FFE8E8;
+}
+
+.glyphicon.glyphicon-globe {
+	font-size: 200px;
+	color: #FA1919;
+}
+
+/*services part*/
+
+#services {
+	padding: 50px;
+}
+
+.glyphicon.glyphicon-off {
+	font-size: 50px;
+	color: #FA1919;
+}
+
+.glyphicon.glyphicon-heart {
+	font-size: 50px;
+	color: #FA1919;
+}
+
+.glyphicon.glyphicon-lock {
+	font-size: 50px;
+	color: #FA1919;
+}
+
+.glyphicon.glyphicon-leaf {
+	font-size: 50px;
+	color: #FA1919;
+}
+
+.glyphicon.glyphicon-certificate {
+	font-size: 50px;
+	color: #FA1919;
+}
+
+.glyphicon.glyphicon-wrench {
+	font-size: 50px;
+	color: #FA1919;
+}
+
+
+
+
 
