@@ -7,5 +7,7 @@
 
  $(document).ready(function(){
  	$(".globe").fadeIn(2000);
- })
+ });
+
+ 
 

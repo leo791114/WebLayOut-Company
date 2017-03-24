@@ -77,8 +77,21 @@ div > h2 {
 
 .glyphicon.glyphicon-wrench {
 	font-size: 50px;
-	color: #FA1919;
+	color:#FA1919;
 }
+
+/*profolio part*/
+
+#profolio {
+	background-color: #f6f6f6;
+};
+
+.carousel-inner {
+	padding: 100px;
+}
+
+
+
 
 
 
