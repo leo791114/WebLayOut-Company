@@ -248,10 +248,28 @@
                         <input class="form-control" type=" email " id="email " name="email " placeholder="Email " required>
                     </div>
                 </div>
-                <textarea rows="5" id="comment" name="comment" placeholder="Comment"></textarea>
+                <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Comment"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                        <!--<input type="submit" value="send" class="pull-right">-->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!--Add Google Map-->
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+            var mapProp = { center: myCenter, zoom: 12, scrollwheel: false, draggable: false, mapTypeId: google.maps.MapTypeId.ROADMAP };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            var marker = new google.maps.Marker({ position: myCenter });
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeoLg-SfxJqEqVRhrLMUX1KBOdl5ymrn8&callback=myMap"></script>
 
 
 </body>
