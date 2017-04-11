@@ -2,7 +2,7 @@
     background-color: #f1541b;
     color: #ffffff;
     text-align: center;
-    padding: 100px  25px;
+    padding: 100px 25px;
 }
 
 .container-fluid {
@@ -27,6 +27,7 @@
     text-align: center;
 }
 
+
 /*Portfolio part*/
 
 #portfolio {
@@ -50,22 +51,24 @@
     margin-bottom: 10px;
 }
 
+
 /*Carousel part*/
 
-.left.carousel-control, .right.carousel-control {
+.left.carousel-control,
+.right.carousel-control {
     background-image: none;
     color: #f4511e;
 }
 
-.carousel-indicators li{
-    border-color:#f4511e;
+.carousel-indicators li {
+    border-color: #f4511e;
 }
 
-.carousel-indicators li.active{
+.carousel-indicators li.active {
     background-color: #f4511e;
 }
 
-.item h4{
+.item h4 {
     font-size: 19px;
     line-height: 1.375em;
     font-weight: 400;
@@ -73,9 +76,10 @@
     margin: 70px 0;
 }
 
-.item span{
+.item span {
     font-style: normal;
 }
+
 
 /*Pricing part*/
 
@@ -91,7 +95,7 @@
 }
 
 .panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 
 .panel-footer .btn:hover {
@@ -108,15 +112,15 @@
     border-bottom: 1px solid transparent;
 }
 
-.panel-footer{
+.panel-footer {
     background-color: #fff;
 }
 
-.panel-footer h3{
+.panel-footer h3 {
     font-size: 32px;
 }
 
-.panel-footer h4{
+.panel-footer h4 {
     color: #aaa;
     font-size: 14px;
 }
@@ -125,4 +129,38 @@
     background-color: #f4511e;
     color: #fff;
     margin: 15px 0;
+}
+
+
+/*Navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar-header .navbar-brand,
+#myNavbar li a {
+    color: #ffffff !important;
+}
+
+#myNavbar li a:hover,
+#myNavbar li.active a {
+    color: #f4511e !important;
+    background-color: #fff;
+}
+
+.navbar .navbar-toggle {
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
 }
