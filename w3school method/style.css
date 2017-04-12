@@ -147,12 +147,16 @@
 
 .navbar-header .navbar-brand,
 #myNavbar li a {
-    color: #ffffff !important;
+    color: #ffffff;
+}
+
+.navbar .navbar-header a:hover {
+    color: #ffffff;
 }
 
 #myNavbar li a:hover,
 #myNavbar li.active a {
-    color: #f4511e !important;
+    color: #f4511e;
     background-color: #fff;
 }
 
@@ -163,4 +167,14 @@
 
 .navbar .navbar-toggle .icon-bar {
     background-color: #ffffff;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .glyphicon {
+    color: #f4511e;
+    font-size: 20px;
+    margin-bottom: 20px;
 }

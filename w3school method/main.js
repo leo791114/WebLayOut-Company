@@ -1,6 +1,6 @@
 $(function () {
-
     myMap();
+    smoothScrolling();
 });
 
 function myMap() {
@@ -12,9 +12,23 @@ function myMap() {
         scrollwheel: false,
         mapTypeId: 'roadmap'
     };
-    var map = new google.maps.Map(document.getElementById('googleMap'), mapProp);
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
     var marker = new google.maps.Marker({
         position: myCenter
     });
     marker.setMap(map);
+}
+
+function smoothScrolling(){
+    $('.navbar a, footer a, navbar-header a').on('click', function () {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
 }

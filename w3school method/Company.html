@@ -13,7 +13,7 @@
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeoLg-SfxJqEqVRhrLMUX1KBOdl5ymrn8&callback=myMap"></script>
 </head>
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <div class="jumbotron">
         <h1>Company</h1>
         <p>We specialize in blablabla</p>
@@ -27,7 +27,7 @@
         </form>
     </div>
     <!--Company Part-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="about">
         <div class="row">
             <div class="col-sm-8">
                 <h1>ABOUT COMPANY PAGE</h1>
@@ -232,7 +232,7 @@
         </div>
     </div>
     <!--Contact part-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="contact">
         <h2>CONTACT</h2>
         <div class="row">
             <div class="col-sm-5">
@@ -271,7 +271,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">Logo</a>
+                <a href="#myPage" class="navbar-brand">Logo</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -284,6 +284,13 @@
             </div>
         </div>
     </nar>
+    <!--footer-->
+    <footer class="container-fluid">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+    </footer>
 
 
 
