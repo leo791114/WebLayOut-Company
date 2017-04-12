@@ -3,6 +3,7 @@
     color: #ffffff;
     text-align: center;
     padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
@@ -143,6 +144,7 @@
     line-height: 1.42857143;
     letter-spacing: 4px;
     border-radius: 0;
+    font-family: Montserrat, sans-serif;
 }
 
 .navbar-header .navbar-brand,
@@ -177,4 +179,30 @@ footer .glyphicon {
     color: #f4511e;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+
+/*final style*/
+
+body {
+    font: 400 15px Lato, sans-serif;
+    /*font-style font-variant font-weight font-size/line height font-family*/
+    line-height: 1.8;
+    color: #818181;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
