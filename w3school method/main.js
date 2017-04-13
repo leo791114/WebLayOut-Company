@@ -1,6 +1,7 @@
 $(function () {
     myMap();
     smoothScrolling();
+    slideEffect();
 });
 
 function myMap() {
@@ -19,7 +20,7 @@ function myMap() {
     marker.setMap(map);
 }
 
-function smoothScrolling(){
+function smoothScrolling() {
     $('.navbar a, footer a, navbar-header a').on('click', function () {
         if (this.hash !== "") {
             event.preventDefault();
@@ -30,5 +31,17 @@ function smoothScrolling(){
                 window.location.hash = hash;
             });
         }
+    });
+}
+
+function slideEffect() {
+    $(window).scroll(function () {
+        $('.slideanim').each(function () {
+            var position = $(this).offset().top;
+            var winTop = $(window).scrollTop();
+            if (position < winTop + 600) {
+                $(this).addClass('slide');
+            }
+        });
     });
 }
